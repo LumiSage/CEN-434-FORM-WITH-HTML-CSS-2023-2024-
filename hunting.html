@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<!--A form is a way for users to submit data into a website --> 
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HUNTING CLUB</title>
+    <!--Links to our stylesheets-->
+   <!--<link rel="stylesheet" href="css/reset.css">-->
+    <link rel="stylesheet" href="hunting.css">
+</head>
+
+<body>
+    
+
+
+    <div class="title" style="font-size: 30px; font-weight: 500; ">REGISTER HERE!</div> 
+   
+
+    </div>
+   
+    
+        <section class="wrapper-main">
+            
+            <form action="example.html" method="get">
+
+                <a id="Download" href="#">Download Here</a>
+                <br>
+                <script src="jquery-3.7.1.slim.js" type="text/Javascript"></script>
+
+                <label for="firstname">HUNTER'S NAME</label>
+                <input required type="text" id="firstname" name="firstname" placeholder="firstname"  >   
+                <br><br> 
+                <label for="email">Email</label>
+                <br>
+                <input required type="email" id="email" name="email" placeholder="Email"  > 
+                <br><br> 
+                <label for="pwd">Password</label>
+                <br>
+                <input required type="password" id="pwd" name="pwd" placeholder="Password"  > 
+                <br><br>
+                <label for="message">Write your Motive for Hunting</label>
+                <textarea name="message" id="message" placeholder="write a message..."></textarea>
+                <br><br>
+                <label> Experience Level : </label>
+                <br>
+                <input type="radio" id="experience1" name="experience" value="Novice">
+                <label for="experience1">Novice</label>
+                <input type="radio" id="experience2" name="experience" value="placeholder">
+                <label for="experience2">Pro</label>
+                <input type="radio" id="experience3" name="experience" value="Master">
+                <label for="experience3">Master</label>
+
+                <br><br>
+                <label> Choose Your Hunt Weapon  </label>
+                <br>
+                <input type="checkbox" id="weapon" name="weapon" value="Bow & Arrow">
+                <label for="weapon">Bow & Arrow</label>
+                <input type="checkbox" id="weapon1" name="weapon1" value="Pistol">
+                <label for="weapon1">Pistol</label>
+                <input type="checkbox" id="weapon2" name="weapon2" value="Rifle">
+                <label for="weapon2">Rifle</label>
+                <input type="checkbox" id="weapon3" name="weapon3" value="Just Traps">
+                <label for="weapon3">Just Traps</label>
+                <br><br>
+                <label>Where Do You Live?</label>
+                <br>
+                <select name="country" id="country">
+                    <option >Select Your Country</option>
+                    <option value="Zoo">I live In the Zoo fr</option>
+                    <option value="Argentina">Argentina</option>
+                    <option value="Brazil">Brazil</option>
+                    <option value="China">China</option>
+                    <option value="Finland">Finland</option>
+                    <option value="Iraq">Iraq</option>
+                    <option value="Pakistan">Pakistan</option>
+                    <option value="Russia">Russia</option>
+                    <option value="Sierra Lone">Sierra Lone</option>
+                    <option value="Nigeria">Nigeria</option>
+                    <option value="Zambia">Zambia</option>
+                </select>
+                <br><br>
+                <button type="Submit" value="Submit">Finish</button>
+            </form>
+        </section>
+
+</body>
+
+</html>

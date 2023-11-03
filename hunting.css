@@ -1,0 +1,90 @@
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+
+    
+
+body {
+    font-family: Roboto;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background: #020302 ;
+    padding: 0%;
+    background-image: url(download.png);  
+
+}
+
+ 
+.wrapper-main {
+    width: 500px;
+    margin: 0 auto;
+    background: rgba(124, 151, 111, 0.75);
+    padding: 25px 30px;
+    border-radius: 30px;
+    font-size: 20px;
+
+}
+
+
+
+textarea,
+input {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    height: 25px;
+}
+
+
+textarea:focus,
+input:focus {
+    outline: 1px solid black;
+}
+
+ 
+textarea {
+    width: 100%;
+    height: 100px;
+    resize: vertical;
+}
+
+
+input[type="radio"] {
+    appearance: radio;
+}
+
+input[type="checkbox"] {
+    appearance: checkbox;
+}
+
+select{
+    border: 1px solid #acc;
+    width: 200px;
+}
+
+button {
+    background-color: bisque;
+}
+
+input[typr=text], 
+textarea,
+select,
+button {
+    padding: 10px;
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+    outline: #0a0707;
+    color: #0a0707;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    
+} 
+
+button:hover {
+    background-color: rgb(209, 189, 164);
+    cursor: pointer; 
+} 
